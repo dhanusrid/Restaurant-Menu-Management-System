@@ -1,0 +1,16 @@
+{
+  "name": "restaurant-menu-system",
+  "version": "1.0.0",
+  "description": "Restaurant Menu System using React, Node, Express, MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && node server.js",
+    "client": "cd frontend && npm start"
+  },
+  "author": "Dhanu",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
